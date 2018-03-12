@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 
-class PricesView(APIView):
+class PriceView(APIView):
     """
     get:
     Return a list of all the existing prices.

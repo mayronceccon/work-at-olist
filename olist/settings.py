@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_swagger',
-    'prices',
+    'price',
 ]
 
 REST_FRAMEWORK = {}
