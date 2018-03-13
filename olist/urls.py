@@ -9,8 +9,8 @@ from call.views import CallView
 schema_view = get_swagger_view(title='Work To Olist')
 
 urlpatterns = [
-    url(r'^docs/$', schema_view),
     path('admin/', admin.site.urls),
-    url(r'api/v1/prices', PriceView.as_view()),
-    url(r'api/v1/calls', CallView.as_view())
+    url(r'^docs/$', schema_view),
+    url(r'^api/v1/prices/$', PriceView.as_view()),
+    url(r'^api/v1/calls/$', CallView.as_view())
 ]
