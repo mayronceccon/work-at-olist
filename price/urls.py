@@ -10,4 +10,8 @@ urlpatterns = [
         r'^api/v1/prices/$',
         views.get_all
     ),
+    url(
+        r'^api/v1/pricesp/$',
+        views.post
+    ),
 ]
