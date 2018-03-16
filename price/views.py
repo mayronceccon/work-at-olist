@@ -9,7 +9,7 @@ from .models import Price
 @api_view(['GET'])
 def get(request, pk=None):
     """
-    Comment get
+    Comment get aaaa
     """
     calls = Price.objects.filter(pk=int(pk))
     serializer = PriceSerializer(calls, many=True)
